@@ -1,0 +1,279 @@
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.301), rgba(0, 0, 0, 0.5)), url(img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.banner-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner-part img {
+    width: 434.16px;
+    height: 680px;
+}
+
+.zxc h3 {
+    color: #FB9D5C;
+    font-size: 20.5px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+
+.zxc h1 {
+    color: #FFF;
+    font-size: 44.1px;
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+button {
+    color: #212529;
+    border: none;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    height: 38px;
+    padding: 6.5px 14.71px 7.5px 13px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: #FB9D5C;
+}
+
+.logos {
+    width: 80%;
+    background: #F9F9F9;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos img {
+    width: 130.19px;
+    height: 143.32px;
+    margin-right: 80px;
+}
+
+.c-logos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ant {
+    width: 170px !important;
+}
+
+@media screen and (max-width:850px) {
+
+    .banner-part {
+        flex-direction: column;
+    }
+
+    .banner-part {
+        margin-top: 30px;
+    }
+
+    .logos img {
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+    }
+
+    .ant {
+        width: 100px !important;
+    }
+
+    .banner-part img {
+        width: 364.16px;
+        height: 500px;
+    }
+}
+
+.footer {
+    background: #151515;
+}
+
+.footer main {
+    padding: 70px;
+}
+
+.hide {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width:850px) {
+    .hide {
+        display: none !important;
+    }
+}
+
+.hire img {
+    width: 570px;
+    height: 631px;
+    display: flex;
+    align-items: end;
+}
+
+.btn {
+    border-radius: 4px;
+    border: 1px solid #0DCAF0;
+
+    background: #0DCAF0;
+}
+
+.hire {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.p2-hire {
+    width: 660px;
+    height: 631px;
+}
+
+.p2-hire p {
+    font-size: 14px;
+}
+
+@media screen and (max-width:850px) {
+
+    .hire {
+        flex-direction: column;
+    }
+
+    .p2-hire {
+        width: 360px;
+        height: 631px;
+    }
+
+    .hire img {
+        width: 370px;
+        height: 431px;
+        display: flex;
+        align-items: end;
+    }
+
+}
+
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-top: 30px;
+}
+
+.i i {
+    color: #FB9D5C;
+    margin-right: 10px;
+    font-size: 20px
+}
+
+.i {
+    display: none;
+}
+
+.nav-1234 a {
+    color: #FB9D5C;
+    font-size: 18.6px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 70px;
+}
+
+@media screen and (max-width:850px) {
+    .nav-1234 {
+        display: none;
+    }
+
+    .i {
+        display: flex;
+    }
+
+    .nav {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+.service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hagu {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.card .img1 {
+    width: 83.5px;
+    height: 83.5px;
+
+}
+
+.card {
+    border-radius: 2px;
+    border: 1px solid #A5A1A1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 310px;
+    padding: 5px;
+    gap: 10px;
+}
+
+.c-card {
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 60px;
+
+
+}
+
+.ballz {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.card p {
+    text-align: center;
+}
+
+@media screen and (max-width:850px) {
+    .c-card {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
